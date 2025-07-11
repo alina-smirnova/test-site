@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Сайт Алины</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Шапка сайта -->
+    <header>
+      <div class="navbar">
+        <div class="logo">Мой Сайт</div>
+        <div class="burger" onclick="toggleMenu()">☰</div>
+
+        <nav class="nav-links">
+          <a href="index.html">Главная</a>
+          <a href="about.html">О нас</a>
+          <a href="services.html">Услуги</a>
+          <a href="#contact">Контакты</a>
+        </nav>
+      </div>
+      <!-- закрываем .navbar -->
+    </header>
+
+    <!-- Главная секция с фоном -->
+    <section class="main-header">
+      <h1>Добро пожаловать</h1>
+      <a href="#" class="main-btn">Начать</a>
+    </section>
+
+    <!-- О нас -->
+    <section class="info-section">
+      <div class="info-text">
+        <h2>О нас</h2>
+        <p>
+          Мы создаём простые и красивые сайты, обучая новичков шаг за шагом.
+          Наши курсы понятны и результативны.
+        </p>
+      </div>
+      <div class="info-img">
+        <img src="https://picsum.photos/400/250" alt="О нас" />
+      </div>
+    </section>
+
+    <!-- Карточки преимуществ -->
+    <section class="features">
+      <div class="card">1</div>
+      <div class="card">2</div>
+      <div class="card">3</div>
+    </section>
+
+    <!-- Отзывы -->
+    <section class="testimonials">
+      <h2>Отзывы наших клиентов</h2>
+      <div class="testimonial-list">
+        <div class="testimonial">
+          <p>“Очень крутой сервис! Всё быстро и качественно.”</p>
+          <span>— Анна</span>
+        </div>
+        <div class="testimonial">
+          <p>“Рекомендую всем! Отличная команда и подход.”</p>
+          <span>— Иван</span>
+        </div>
+        <div class="testimonial">
+          <p>“Вернусь снова! Уровень сервиса на высоте.”</p>
+          <span>— Мария</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Контактная форма -->
+    <section class="contact" id="contact">
+      <h2>Связаться с нами</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Ваше имя" required />
+        <input type="email" placeholder="Email" required />
+        <textarea placeholder="Ваше сообщение" required></textarea>
+        <button type="submit">Отправить</button>
+      </form>
+    </section>
+
+    <!-- Подвал -->
+    <footer>
+      <p>© 2025 Мой сайт. Все права защищены.</p>
+      <p>
+        <a href="mailto:info@mysite.com" style="color: white"
+          >info@mysite.com</a
+        >
+      </p>
+    </footer>
+
+    <button onclick="scrollToTop()" id="topBtn" title="Наверх">↑</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>

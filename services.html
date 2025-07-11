@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Услуги</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="logo">Мой Сайт</div>
+        <div class="burger" onclick="toggleMenu()">☰</div>
+        <nav class="nav-links">
+          <a href="index.html">Главная</a>
+          <a href="about.html">О нас</a>
+          <a href="services.html">Услуги</a>
+          <a href="index.html#contact">Контакты</a>
+        </nav>
+      </div>
+    </header>
+
+    <section class="services-page">
+      <h1>Наши услуги</h1>
+      <p class="services-desc">
+        Мы предлагаем широкий спектр услуг по созданию и сопровождению сайтов.
+      </p>
+
+      <div class="services-cards">
+        <div class="service-card">
+          <h3>Создание сайта</h3>
+          <p>Разработка адаптивного и современного сайта под ключ.</p>
+        </div>
+        <div class="service-card">
+          <h3>Обучение</h3>
+          <p>Пошаговые курсы по веб-разработке для новичков.</p>
+        </div>
+        <div class="service-card">
+          <h3>Поддержка</h3>
+          <p>Обновления, правки, сопровождение и техническая помощь.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 Мой сайт. Все права защищены.</p>
+      <p>
+        <a href="mailto:info@mysite.com" style="color: white"
+          >info@mysite.com</a
+        >
+      </p>
+    </footer>
+
+    <button onclick="scrollToTop()" id="topBtn" title="Наверх">↑</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
